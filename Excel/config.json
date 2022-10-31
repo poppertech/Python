@@ -1,0 +1,6 @@
+{
+	"sql_dialect": "mssql",
+	"sql_driver": "pyodbc",
+	"sql_conn": "@./Goal-Based-Database?",
+	"driver": "driver=ODBC+Driver+17+for+SQL+Server"
+}

@@ -1,0 +1,16 @@
+{
+	"template_name": "Template.xlsx",
+	"output_name": "Report.xlsx",
+	"sheet_contexts": [
+		{
+			"sql": "SELECT Cost, 0.0 FROM CashFlow",
+			"sh_name": "CashFlow",
+			"start_row": "2"
+		},
+		{
+			"sql": "SELECT TOP 10 Cost/2.0, 'Id' + CONVERT(VARCHAR, Id) FROM CashFlow",
+			"sh_name": "CashFlowV2",
+			"start_row": "3"
+		}
+	]
+}
